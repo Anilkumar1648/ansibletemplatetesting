@@ -5,6 +5,7 @@
     vars:
       custom_heading: "Welcome To DevOps Training B15 By Sreeharsha Veerapalli - Testing AWX"
       todays_date: "{{ ansible_facts['date_time']['date'] }}"
+      os_family: "{{ ansible_facts['os_family'] }}"
       host_name: "{{ ansible_facts['hostname'] }}"
       fqdn_name: "{{ ansible_facts['fqdn'] }}"
       ip_address: "{{ ansible_facts['eth0']['ipv4']['address'] }}"
