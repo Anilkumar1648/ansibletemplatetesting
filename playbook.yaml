@@ -1,6 +1,6 @@
 ---
   - name: Play for Install Nginx on WebServers
-    hosts: web
+    hosts: localhost
     gather_facts: yes
     vars:
       custom_heading: "welocme to world of pheonix"
